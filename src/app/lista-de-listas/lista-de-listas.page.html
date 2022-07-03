@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-button
+      slot="end"
+      routerLink="/profile"
+      routerDirection="forward"
+      color="tertiary"
+      fill="clear"
+    >
+      <ion-icon name="person" color="dark"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="cardcontconfig cardconfig" color="tertiary">
+    <ion-card-header>
+      <ion-img
+        src="/assets/imagens/icon_IHM.png"
+        class="circulo"
+        alt="circulo"
+      ></ion-img>
+      <ion-card-title style="text-align: center"
+        >Listas Disponíveis</ion-card-title
+      >
+    </ion-card-header>
+    <ion-card-content> </ion-card-content>
+  </ion-card>
+  
+ 
+      <ion-card color="tertiary" routerLink="/lista" routerDirection="forward">
+        <ion-card-header>
+          <h1>Lista 1</h1>
+        </ion-card-header>
+        <ion-card-content> </ion-card-content>
+      </ion-card>
+
+      <ion-card  color="tertiary" >
+        <ion-card-header>
+          <H1>Lista 2</H1>
+        </ion-card-header>
+        <ion-card-content> </ion-card-content>
+      </ion-card>
+      
+      <ion-card  color="tertiary" >
+        <ion-card-header>
+          <H1>Lista 3</H1>
+        </ion-card-header>
+        <ion-card-content> </ion-card-content>
+      </ion-card>
+
+     
+  
+  
+
+</ion-content>

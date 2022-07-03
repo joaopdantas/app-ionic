@@ -1,0 +1,80 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-img
+        src="/assets/imagens/icon_IHM.png"
+        class="circulo"
+        alt="circulo"
+      ></ion-img>
+      <ion-card-title style="text-align: center">Contactos</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-list>
+    <ion-list-header> <h1>Dados das Nossas Lojas</h1> </ion-list-header>
+
+    <ion-item>
+      <ion-icon
+        slot="start"
+        size="large"
+        name="call"
+        color="tertiary"
+      ></ion-icon>
+      <ion-label>
+        <h2>Numero de telemovel</h2>
+        <h3>910990880</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon
+        slot="start"
+        size="large"
+        name="mail"
+        color="tertiary"
+      ></ion-icon>
+      <ion-label>
+        <h2>Email</h2>
+        <h3>emailloja@gmail.com</h3>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start" size="large">
+        <img src="./assets/imagenscontactos/antonio_gomes.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>António Gomes</h2>
+        <h2>Nº 26780</h2>
+        <h3>amanuelgomes@ipvc.pt</h3>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start" size="large">
+        <img src="./assets/imagenscontactos/domingos_silva.PNG" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Domingos Silva</h2>
+        <h2>Nº 24589</h2>
+        <h3>silvadomingos@ipvc.pt</h3>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start" size="large">
+        <img src="./assets/imagenscontactos/joao_dantas.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>João Dantas</h2>
+        <h2>Nº 24901</h2>
+        <h3>joao.dantas@ipvc.pt</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

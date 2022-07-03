@@ -1,0 +1,98 @@
+{
+  "atum": {
+    "id": "1",
+    "title": "Atum",
+    "preco": "1,78",
+    "descricao": "Grande nadador, o atum distingue-se pelo seu corpo alongado e fusiforme. Os antigos gregos chamavam-no de thynõ, “o apressado”, por causa da sua velocidade – algumas espécies de atum chegam a atingir os 70Km/h e, deslocando-se sempre em cardumes, podem percorrer até 170 Km num só dia. Mas não é apenas a sua fisiologia que merece destaque: com um metabolismo muito eficiente, o atum mantém sempre uma temperatura corporal elevada. Desta forma, detém uma força física surpreendente, capaz de sobreviver em águas muito frias e com uma enorme resistência.",
+    "img": "./assets/produtos/atum.jpg",
+    "cals": "198",
+    "lip": "8.21",
+    "prot": "29.13",
+    "carbs": "3"
+  },
+  
+  "arroz": {
+    "id": "2",
+    "title": "Arroz",
+    "preco": "2.29",
+    "descricao": "Basmati",
+    "img": "./assets/produtos/arroz.jpg",
+    "cals": "121",
+    "lip": "0.38",
+    "prot": "3.54",
+    "carbs": "25.22"
+  },
+
+  "massa": {
+    "id": "3",
+    "title": "Massa Esparguete",
+    "preco": "1.15",
+    "descricao": "A massa mais conhecida é apreciada com tudo: carnes, cogumelos, marisco ! É possivel confecionar pratos mais simples até aos mais complexos sem nunca deixar de nos surpreender.",
+    "img": "./assets/produtos/massa.jpg",
+    "cals": "220",
+    "lip": "1.29",
+    "prot": "8.06",
+    "carbs": "42.95"
+  },
+  
+  "chocapic": {
+    "id": "4",
+    "title": "Chocapic",
+    "preco": "4.99",
+    "descricao": "Os cereais Chocapic® são deliciosos cereais de pequeno-almoço com trigo e chocolate. Contêm cereais integrais, vitaminas, minerais e um sabor inconfundível a chocolate e chocolate branco que as crianças adoram. Contribuem da melhor forma para começar o dia com energia!",
+    "img": "./assets/produtos/chocapic.jpg",
+    "cals": "385 ",
+    "lip": "4.6",
+    "prot": "8.8",
+    "carbs": "73.1"
+  },
+
+  "pipoca": {
+    "id": "5",
+    "title": "Pipocas",
+    "preco": "3.19",
+    "descricao": "Pipoca ou popoca (no Pará também chamada pororoca) é um prato feito a partir de uma variedade especial de milho, o milho-pipoca (Zea mays everta), que estoura quando aquecido. Ao aquecermos os grãos desse milho de maneira rápida, a sua humidade interna é convertida em vapor.",
+    "img": "./assets/produtos/pipoca.jpg",
+    "cals": "481",
+    "lip": "22",
+    "prot": "7.5",
+    "carbs": "59"
+  },
+  
+  "super": {
+    "id": "6",
+    "title": "SuperBock 33cl",
+    "preco": "0.59",
+    "descricao": "O sabor autêntico. Super Bock Original é a única cerveja portuguesa com 37 medalhas de ouro consecutivas. Produzida a partir de ingredientes de origem 100% natural, é a cerveja autêntica de excelência para os teus momentos de convívio.",
+    "img": "./assets/produtos/superbock.jpg",
+    "cals": "162",
+    "lip": "0",
+    "prot": "1",
+    "carbs": "13"
+  },
+
+  "nutella": {
+    "id": "7",
+    "title": "Nutella",
+    "preco": "4.99",
+    "descricao": "O que torna a emblemática receita de Nutella® verdadeiramente deliciosa é o cuidado e a paixão que dedicamos todos os dias a cada passo da sua produção para lhe oferecer uma experiência saborosa e deliciosa. Nutella® é elaborada através da combinação de ingredientes de qualidade cuidadosamente selecionados, garantindo assim a sua singular cremosidade e o seu sabor intenso.",
+    "img": "./assets/produtos/nutella.jpg",
+    "cals": "80",
+    "lip": "4.7",
+    "prot": "1",
+    "carbs": "8.5"
+  },
+
+  "yoggi": {
+    "id": "8",
+    "title": "Yoggi",
+    "preco": "3.11",
+    "descricao": "Yoggi Líquido é a gama de iogurtes Yoggi desenvolvidos a pensar em todos aqueles que procuram o mais líquido dos líquidos, com 100% ingredientes naturais, sem abdicar de um sabor refrescante.",
+    "img": "./assets/produtos/yoggi.jpg",
+    "cals": "67",
+    "lip": "0.9",
+    "prot": "2.7",
+    "carbs": "11.9"
+  }
+  
+}

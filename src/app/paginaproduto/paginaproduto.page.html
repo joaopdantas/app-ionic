@@ -1,0 +1,83 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/mainproduto"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-img
+        src="/assets/imagens/icon_IHM.png"
+        class="circulo"
+        alt="circulo"
+      ></ion-img>
+      <ion-card-title style="text-align: center">Produto</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+
+
+
+  <ion-row >  
+      <ion-card class="card">
+        <img [src]="dataProduto.img"
+        class="circulo1"/>
+      </ion-card>  
+  </ion-row>
+
+  <ion-grid>
+    <ion-row wrap>
+      <ion-col class="linhas">
+        <h5>Tabela Nutricional</h5>
+       </ion-col>
+      <ion-col class="linhas">
+       <h4>Energia</h4>
+       <h4>(Kcal)</h4>
+      </ion-col>
+      <ion-col class="linhas">
+        <h4 class="ion-text-left"> {{ dataProduto.cals }}</h4>
+      </ion-col>
+      <ion-col class="linhas">
+        <h4>Lípidos</h4>
+        <h4>(G)</h4>
+       </ion-col>
+       <ion-col class="linhas">
+        <h4 class="ion-text-left"> {{ dataProduto.lip }}</h4>
+       </ion-col>
+       <ion-col class="linhas">
+        <h4>Proteínas</h4>
+        <h4>(G)</h4>
+       </ion-col>
+       <ion-col class="linhas">
+        <h4 class="ion-text-left"> {{ dataProduto.prot }}</h4>
+       </ion-col>
+       <ion-col class="linhas">
+        <h4>Carboidratos</h4>
+        <h4>(G)</h4>
+       </ion-col>
+       <ion-col class="linhas">
+        <h4 class="ion-text-left"> {{ dataProduto.carbs }}</h4>
+       </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h1>Preço</h1>
+  <ion-grid>
+    <ion-row>
+          <h3 class="ion-text-left"> {{ dataProduto.preco }}€</h3>
+    </ion-row>
+  </ion-grid>
+
+
+  <h1>Descrição</h1>
+  <ion-grid>
+    <ion-row>
+          <h4 class="ion-text-left"> {{ dataProduto.descricao }}</h4>
+    </ion-row>
+  </ion-grid>
+
+  
+</ion-content>

@@ -1,0 +1,105 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-button
+      slot="end"
+      routerLink="/profile"
+      routerDirection="forward"
+      color="tertiary"
+      fill="clear"
+    >
+      <ion-icon name="person" color="dark"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="cardcontconfig cardconfig" color="tertiary">
+    <ion-card-header>
+      <ion-img
+        src="/assets/imagens/icon_IHM.png"
+        class="circulo"
+        alt="circulo"
+      ></ion-img>
+      <ion-card-title style="text-align: center"
+        >Pagina Principal</ion-card-title
+      >
+    </ion-card-header>
+    <ion-card-content> </ion-card-content>
+  </ion-card>
+  
+  <ion-searchbar color="tertiary" routerLink="/mainproduto" routerDirection="forward"
+    animated
+    placeholder="O que procura?"
+    color="primary"
+  ></ion-searchbar>
+  
+  <h1>Promoções</h1>
+  <ion-slides>
+    <ion-slide>
+      <div  *ngFor="let produto of dataProduto | keyvalue">
+      <ion-card class="cardconfigPromo" color="tertiary" (click)="verProduto(produto.key,'paginaproduto')">
+        <img [src]=" produto.value.img"/>
+        
+            <h4 class="ion-text-left"> {{ produto.value.title }}</h4>
+          
+            <h4 class="ion-text-right"> {{ produto.value.preco }}€</h4>
+            
+
+      </ion-card>
+    </div>
+    </ion-slide>
+    <!--
+    <ion-slide>
+      <div  *ngFor="let produto of dataProduto | keyvalue">
+      <ion-card class="cardconfigPromo" color="tertiary" (click)="verProduto(produto.key,'paginaproduto')">
+        <img [src]=" produto.value.img"/>
+        
+            <h4 class="ion-text-left"> {{ produto.value.title }}</h4>
+          
+            <h4 class="ion-text-right"> {{ produto.value.preco }}€</h4>
+            
+
+      </ion-card>
+    </div>
+    </ion-slide>
+    
+    <ion-slide>
+      <ion-card class="cardconfigPromo" color="tertiary" >
+        <ion-card-header>
+          <ion-img
+            src="/assets/imagens/icon_IHM.png"
+            class="circulo"
+            alt="circulo"
+          ></ion-img>
+        </ion-card-header>
+        <ion-card-content> </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  -->
+
+  </ion-slides>
+  
+  <h1>Novidades</h1>
+  <ion-slides>
+    <ion-slide>
+      <div  *ngFor="let produto of dataProduto | keyvalue">
+      <ion-card class="cardconfigPromo" color="tertiary" (click)="verProduto(produto.key,'paginaproduto')">
+        <img [src]=" produto.value.img"/>
+        
+            <h4 class="ion-text-left"> {{ produto.value.title }}</h4>
+          
+            <h4 class="ion-text-right"> {{ produto.value.preco }}€</h4>
+            
+           
+      </ion-card>
+    </div>
+    </ion-slide>
+
+ 
+  </ion-slides>
+
+</ion-content>
